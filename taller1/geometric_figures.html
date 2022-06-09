@@ -7,7 +7,44 @@
     <title>Taller 1 - Figuras geométricas en JS</title>
 </head>
 <body>
-    <h1>Figuras Geométricas</h1>
+    <header>
+        <h1>Figuras Geométricas</h1>
+        <p>Prueba de uso html y javascript</p>
+    </header>
+    <section>
+        <h2>Calcula el area y perimetro de un cuadrado</h2>
+        <form action="">
+            <label for="squareInput">Escribir cuanto mide los lados del cuadrado</label>
+            <input id="squareInput" type="number" />
+            <button type="button" onclick="calculateSquarePerimeter()">Calcular perimetro</button>
+            <button type="button" onclick="calculateSquareArea()">Calcular área</button>
+        </form>
+    </section>
+    <section>
+        <h2>Calcula el area y perimetro de un triangulo</h2>
+        <form action="">
+            <label for="triangleInput1">Lado a del triangulo</label>
+            <input id="triangleInput1" type="number" />
+            <label for="triangleInput2">Lado b del triangulo</label>
+            <input id="triangleInput2" type="number" />
+            <label for="triangleInputBase">Base del triangulo</label>
+            <input id="triangleInputBase" type="number" />
+            <label for="triangleInputHigh">Altura del triangulo</label>
+            <input id="triangleInputHigh" type="number" />
+            <button type="button" onclick="calculateTrianglePerimeter()">Calcular perimetro</button>
+            <button type="button" onclick="calculateTriangleArea()">Calcular área</button>
+        </form>
+    </section>
+    <section>
+        <h2>Calcula el area y perimetro de un circulo</h2>
+        <form action="">
+            <label for="circleInput">Radio del circulo</label>
+            <input id="circleInput" type="number" />
+            <button type="button" onclick="calculateCircleDiameter()">Calcular diametro</button>
+            <button type="button" onclick="calculateCirclePerimeter()">Calcular perimetro</button>
+            <button type="button" onclick="calculateCircleArea()">Calcular área</button>
+        </form>
+    </section>
     <script src="./geometric_figures.js"></script>
 </body>
 </html>

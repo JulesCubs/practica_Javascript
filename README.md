@@ -4,10 +4,10 @@ Algunos talleres correspondientes al curso practico de Javascript
 
 ## Breve explicación Taller 1 
 ## Calculadora perimetros y areas figuras geometricas
-###1 - Definición de formulas
-###2 - Implementar formulas en Javascript
-###3 - Creación de funciones
-###4 - Integración js con Html
+* 1 - Definición de formulas
+* 2 - Implementar formulas en Javascript
+* 3 - Creación de funciones
+* 4 - Integración js con Html
 
 - Formulas
     - Perímetro: Suma de los lados de la figura.
