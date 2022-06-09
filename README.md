@@ -25,3 +25,13 @@ Algunos talleres correspondientes al curso practico de Javascript
         - Perímetro: Diámetro * PI, donde PI = 3.1416
         - Área: PI * Radio^2
 
+## Breve explicación Taller 2
+## Porcentajes y descuentos
+* 1 - Definición de formulas
+* 2 - Implementar formulas en Javascript
+* 3 - Creación de funciones
+* 4 - Integración js con Html
+
+- Formulas
+    - Valor a descontar: (Valor total equivalente al 100% - (100 - descuento en porcentaje dado))/100
+

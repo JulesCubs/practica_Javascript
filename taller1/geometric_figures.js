@@ -100,6 +100,23 @@ function calculateTriangleArea() {
   alert("El area del triangulo es: " + area);
 }
 
+function calculateIsoTriangleHigh() {
+  const input1 = document.getElementById("triangleInput1");
+  const value1 = input1.value;
+  const input2 = document.getElementById("triangleInput2");
+  const value2 = input2.value;
+  if (value1 === value2) {
+    const inputBase = document.getElementById("triangleInputBase");
+    const valueBase = inputBase.value / 2;
+    const highness = Math.sqrt(value1 ** 2 + valueBase ** 2);
+    alert("La altura del triangulo isosceles es: " + highness);
+  } else {
+    alert(
+      "Este no es un triangulo isosceles el lado a debe ser igual a lado b"
+    );
+  }
+}
+
 function calculateCircleDiameter() {
   const input = document.getElementById("circleInput");
   const value = input.value;
