@@ -7,6 +7,60 @@
     <title>Taller 2 - Porcentajes y descuentos</title>
 </head>
 <body>
+    <header>
+        <h1>Porcentajes y descuentos</h1>
+        <h2>Calcula el precio a pagar de los productos con descuento</h2>
+    </header>
+    <section>
+        <form action="">
+            <label for="inputPrice">Escribe el precio del producto a escoger: </label>
+            <input id="inputPrice" type="number" />
+            <label for="inputDiscount">Escribe el descuento de este producto: </label>
+            <input id="inputDiscount" type="number" />
+            <button type="button" onclick="onClickPriceDiscount()">Calcular el precio con descuento</button>
+
+            <p id="resultPrice"></p>
+        </form>
+    </section>
+
+    <section>
+        <form action="">
+            <h2>Calcula el precio a pagar de los productos con descuento aqui funcionan los cupones, Metodo 1</h2>
+            <label for="inputPriceCoupon1">Escribe el precio del producto a escoger: </label>
+            <input id="inputPriceCoupon1" type="number" />
+            <label for="inputCoupon1">Escribe el cupon de descuento para este producto: </label>
+            <input id="inputCoupon1" type="text" />
+            <button type="button" onclick="onClickPriceDiscountCoupon1()">Calcular el precio con cupon de descuento</button>
+
+            <p id="resultPriceCoupon1"></p>
+        </form>
+    </section>
+
+    <section>
+        <form action="">
+            <h2>Calcula el precio a pagar de los productos con descuento aqui funcionan los cupones, Metodo 2</h2>
+            <label for="inputPriceCoupon2">Escribe el precio del producto a escoger: </label>
+            <input id="inputPriceCoupon2" type="number" />
+            <label for="inputCoupon2">Escribe el cupon de descuento para este producto: </label>
+            <input id="inputCoupon2" type="text" />
+            <button type="button" onclick="onClickPriceDiscountCoupon2()">Calcular el precio con cupon de descuento</button>
+
+            <p id="resultPriceCoupon2"></p>
+        </form>
+    </section>
+
+    <section>
+        <form action="">
+            <h2>Calcula el precio a pagar de los productos con descuento aqui funcionan los cupones, Metodo 3</h2>
+            <label for="inputPriceCoupon3">Escribe el precio del producto a escoger: </label>
+            <input id="inputPriceCoupon3" type="number" />
+            <label for="inputCoupon3">Escribe el cupon de descuento para este producto: </label>
+            <input id="inputCoupon3" type="text" />
+            <button type="button" onclick="onClickPriceDiscountCoupon3()">Calcular el precio con cupon de descuento</button>
+
+            <p id="resultPriceCoupon3"></p>
+        </form>
+    </section>
     <script src="./descuentos.js"></script>
 </body>
 </html>
