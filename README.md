@@ -35,3 +35,14 @@ Algunos talleres correspondientes al curso practico de Javascript
 - Formulas
     - Valor a descontar: (Valor total equivalente al 100% - (100 - descuento en porcentaje dado))/100
 
+## Breve explicación Taller 3
+## Promedio, moda y mediana. Herramientas estadisticas
+* 1 - Definición de formulas
+* 2 - Implementar formulas en Javascript
+* 3 - Creación de funciones
+* 4 - Integración js con Html
+
+- Formulas
+    - Promedio: (valor1 + valor2 + ... + valorN)/cantidad_de_valores
+    - Mediana: encontrar el valor medio del numero total de valores ordenados o los dos numeros medios divididos entre 2 si la cantidad total es par
+    - Moda: El elemento que mas se repite

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller 3 - Promedio, media y moda</title>
+</head>
+<body>
+    <header>
+        <h1>Promedio, Media y Moda</h1>
+    </header>
+    <section>
+        <form action="">
+            <ul>
+                <li>
+                    <label for="listInput1">Escribe el valor: </label>
+                    <input id="listInput1" type="number" />
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="listInput2">Escribe el valor: </label>
+                    <input id="listInput2" type="number" />
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="listInput3">Escribe el valor: </label>
+                    <input id="listInput3" type="number" />
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="listInput4">Escribe el valor: </label>
+                    <input id="listInput4" type="number" />
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="listInput5">Escribe el valor: </label>
+                    <input id="listInput5" type="number" />
+                </li>
+            </ul>
+        </form>
+    </section>
+    <section>
+        <h2>Calculo de promedio</h2>
+        <button type="button" onclick="onClickAverage()">Calcular el promedio</button>
+        <p id="resultAverage"></p>
+    </section>
+    <section>
+        <h2>Calculo de media</h2>
+        <button type="button" onclick="onClickMedia()">Calcular la media</button>
+        <p id="resultMedia"></p>
+    </section>
+    <section>
+        <h2>Calculo de moda</h2>
+        <button type="button" onclick="onClickModa()">Calcular el promedio</button>
+        <p id="resultModa"></p>
+    </section>
+    <script src="./statisticsTools.js"></script>
+</body>
+</html>
