@@ -59,15 +59,15 @@ function isPair(value) {
 }
 
 function calculateMedia(list) {
-  const selfList = parseInt(list.length / 2);
+  const halfList = parseInt(list.length / 2);
   let media;
 
   if (isPair(list.length)) {
-    const element1 = list[selfList1];
-    const element2 = list[selfList1 - 1];
+    const element1 = list[halfList1];
+    const element2 = list[halfList1 - 1];
     media = calculateAritmethicAverage([element1, element2]);
   } else {
-    media = list[selfList];
+    media = list[halfList];
   }
 
   return media;
