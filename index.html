@@ -11,7 +11,18 @@
     <p>Esto es un parrafo</p>
     <p class="parrafo">Esto es un parrafo con clase</p>
     <p id="pid">Esto es un parrafo con id</p>
-    <input placeholder="Escribe algo aquí" value="123" />
+    
+    
+    
+    <form id="form1">
+        <input id="presione1" onchange="console.log('presione 1')" placeholder="Escribe algo aquí" value="123" />
+        <input id="presione2" onchange="console.log('presione 2')" placeholder="Escribe algo aquí" value="456" />
+        
+        <button id="btnPresione" onclick=btnOnClick()>Presione aqui</button>
+        <!-- AddEventListener -->
+        <button type="button" id="btnPresione2">Presione aqui</button>
+        <p id="result"></p>
+    </form>
     <!-- <script>console.log("hola mundo")</script> -->
     <script src="script.js"></script>
 </body>

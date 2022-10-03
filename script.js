@@ -32,4 +32,29 @@ el.setAttribute(
 console.log(el);
 
 p2.append(el);
-p2.innerHTML = "";
+// p2.innerHTML = "";
+
+const input1 = document.querySelector("#presione1");
+const input2 = document.querySelector("#presione2");
+const btn = document.querySelector("#btnPresione");
+const pResult = document.querySelector("#result");
+
+function btnOnClick(event) {
+  console.log("ejecutando la función");
+  // console.log(event);
+  // event.preventDefault();
+  console.log(input1.value + input2.value);
+  const value1 = parseInt(input1.value);
+  const value2 = parseInt(input2.value);
+  const result = value1 + value2;
+  console.log(result);
+
+  pResult.innerText =
+    "Resultado: " + result + ", concatenado: " + input1.value + input2.value;
+}
+
+const btn2 = document.querySelector("#btnPresione2");
+const form1 = document.querySelector("#form1");
+
+btn2.addEventListener("click", btnOnClick);
+// form1.addEventListener("submit", btnOnClick);
